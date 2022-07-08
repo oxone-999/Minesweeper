@@ -1,2 +1,6 @@
-# Minesweeper
-made a mine sweeper game using C++ data structures and algorithm, oops concepts
+Minesweeper
+===========
+
+A c++ Minesweeper game
+
+Minesweeper lets you specify width, height, and number of mines. It also keeps track of how long you are taking.
