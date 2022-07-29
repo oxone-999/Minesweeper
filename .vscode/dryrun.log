@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/rootdaenib/VS_Code/Minesweeper'
+g++  -g -O2 -Wall -Wextra -Iinclude -rdynamic  -c -o src/board.o src/board.cpp
+g++  -g -O2 -Wall -Wextra -Iinclude -rdynamic  -c -o src/game.o src/game.cpp
+g++  -g -O2 -Wall -Wextra -Iinclude -rdynamic  -c -o src/main.o src/main.cpp
+mkdir -p bin
+g++ -o bin/minesweeper   src/board.o src/game.o src/main.o
+make: Leaving directory '/home/rootdaenib/VS_Code/Minesweeper'
+ 
